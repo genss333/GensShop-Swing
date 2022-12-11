@@ -1,0 +1,22 @@
+package Menu;
+
+import java.awt.Color;
+import java.awt.Dimension;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+
+public class DashBoard_Item extends JButton{
+	
+	public DashBoard_Item() {
+		ImageIcon imgitem1 = new ImageIcon("./imge/home.png");
+		setPreferredSize(new Dimension(250, 50));
+		setIconTextGap(20);
+		setForeground(Color.DARK_GRAY);
+		setBackground(Color.white);
+		setFocusable(false);
+		setBorder(null);
+		setIcon(imgitem1);
+	}
+
+}
